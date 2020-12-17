@@ -1,26 +1,23 @@
 import React from 'react';
 
 import SearchBox from './SearchBox';
+import logo from '../assets/img/github-512.png';
 
-const Header = () => {
+const Header = (props) => {
 
     return(
-        <nav className="navbar is-info mb-5" role="navigation" aria-label="main navigation">
+        <nav className="navbar is-black mb-5" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
-            <a className="navbar-item" href="https://bulma.io">
-              <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" alt="logo" />
-            </a>
-
-          </div>
-
-          <div id="navbarBasicExample" className="navbar-menu">
-
-            <div className="navbar-end">
-              <div className="navbar-item">
-                <SearchBox />
-              </div>
+            <div className="navbar-item logo-container">
+              <img src={logo} alt="logo" />
+            
             </div>
           </div>
+              <div className="navbar-item">
+                <form onSubmit={props.handler}>
+                  <SearchBox />
+                </form>
+              </div>
         </nav>
     )
 }

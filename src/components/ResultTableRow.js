@@ -1,11 +1,19 @@
 import React from 'react';
 
-const ResultTableRow = () => {
+const ResultTableRow = (props) => {
 
     return (
         <tr>
-            <td>Primer dato</td>
-            <td>Segundo dato</td>
+            <td>{ props.name }</td>
+            <td>             
+                <a 
+                    href={props.url} 
+                    title={props.name}
+                    target="_blank"
+                >
+                    { props.url }
+                </a>
+            </td>
         </tr>
     )
 

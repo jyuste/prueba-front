@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en <App /> El componente se crea correctamente 1`] = `
+<div
+  className="App"
+>
+  <Header
+    handler={[Function]}
+  />
+  <ResultTable
+    apiData={Array []}
+  />
+</div>
+`;
