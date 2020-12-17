@@ -10,6 +10,7 @@ const ResultTableRow = (props) => {
                     href={props.url} 
                     title={props.name}
                     target="_blank"
+                    rel="noreferrer"
                 >
                     { props.url }
                 </a>
