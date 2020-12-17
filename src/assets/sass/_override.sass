@@ -1,0 +1,24 @@
+$breakpoint-small-screen: 1024px
+$breakpoint-tablet: 768px
+    
+@mixin default-size
+    width: 30px
+    height: 30px
+
+@mixin square-size($size)
+    max-height: $size  
+    width: $size
+    height: $size
+
+    
+.control.has-icons-left .icon, 
+.control.has-icons-right .icon
+    top: auto
+
+.logo-container
+    margin: 0 auto
+
+.logo-container img
+    @include square-size(50px)
+    @media (min-width: $breakpoint-small-screen)
+        @include default-size

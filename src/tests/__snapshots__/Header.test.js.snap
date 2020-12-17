@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <Header /> El componente se crea correctamente 1`] = `
+<nav
+  aria-label="main navigation"
+  className="navbar is-black mb-5"
+  role="navigation"
+>
+  <div
+    className="navbar-brand"
+  >
+    <div
+      className="navbar-item logo-container"
+    >
+      <img
+        alt="logo"
+        src="github-512.png"
+      />
+    </div>
+  </div>
+  <div
+    className="navbar-item"
+  >
+    <form>
+      <SearchBox />
+    </form>
+  </div>
+</nav>
+`;
