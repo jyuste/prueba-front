@@ -9,7 +9,7 @@ const ResultTable = (props) => {
     const tableRow = props.apiData.map((result, i) => <ResultTableRow className="animate__animated animate__fadeIn" key={i} name={result.name} url={result.url} />)
 
     return (
-        <div className="container">
+        <div className="container table-container">
             <table className="table is-fullwidth is-striped is-hoverable">
                 <thead>
                     <tr className="th">
