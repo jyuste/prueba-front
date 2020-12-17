@@ -14,8 +14,8 @@ const SearchBox = (props) => {
             </p>
             <p className="control">
                 <button className="button is-small is-info">
-                    <span class="icon is-small">
-                        <i class="fa fa-search"></i>
+                    <span className="icon is-small">
+                        <i className="fa fa-search"></i>
                     </span>
                     <span>
                         Buscar
