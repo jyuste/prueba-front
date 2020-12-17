@@ -1,19 +1,29 @@
 import React from 'react';
 
-const SearchBox = () => {
+const SearchBox = (props) => {
 
     return (
-        <div className="control has-icons-right">
-            <div className="field is-horizontal">
-                <div className="field-label is-normal is-white">
-                    <label className="label has-text-grey-light">Buscar:</label>
-                </div>
-                <input className="input is-small" type="text" placeholder="ej: javascript" />
-                <span className="icon is-small is-right">
-                    <i className="fa fa-search"></i>
-                </span>
-            </div>
+
+        <div className="field has-addons has-addons-right">
+            <p className="control">
+                <input
+                    className="input is-small"
+                    type="text"
+                    placeholder="ej: javascript"
+                />
+            </p>
+            <p className="control">
+                <button className="button is-small is-info">
+                    <span class="icon is-small">
+                        <i class="fa fa-search"></i>
+                    </span>
+                    <span>
+                        Buscar
+                    </span>
+                </button>
+            </p>
         </div>
+
     )
 }
 
