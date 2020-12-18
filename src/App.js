@@ -20,7 +20,7 @@ function App() {
     //prevent the refresh when submit a form
     event.preventDefault();
     let str = event.nativeEvent.target[0].value;
-    let queryString = str;
+    let queryString = encodeURIComponent(str);
 
     //TODO filters
     let page = '&page=1'
