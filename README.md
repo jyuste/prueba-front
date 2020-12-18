@@ -15,6 +15,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+### First of all
+
+run 'yarn install` or `npm install` to run install scripts
+
 In the project directory, you can run:
 
 ### `yarn start`
@@ -47,7 +51,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
 ---
-# To production!!!
+
+## To production
 
 run `yarn build`
 
